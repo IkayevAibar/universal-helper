@@ -1,5 +1,5 @@
 // Офлайн-кеш: сначала сеть, при отсутствии — кеш (для файлов сайта).
-const CACHE = 'uh-v1';
+const CACHE = 'uh-v2';
 const FILES = ['./', './index.html', './css/style.css', './icon.svg', './manifest.webmanifest',
   './js/core.js', './js/home.js', './js/money.js', './js/todo.js', './js/jobs.js', './js/finance.js',
   './data/recipes.js', './js/recipes.js', './js/laundry-icons.js', './data/guide.js', './js/guide.js',
