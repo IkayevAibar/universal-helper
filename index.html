@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Мой помощник</title>
+  <meta name="description" content="Личный помощник: курсы и переводы, дела, вакансии, финансы, рецепты, гайды и полезные мелочи.">
+  <meta name="theme-color" content="#0f766e">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <a class="brand" href="#home"><span class="brand-logo">✦</span><span>Мой помощник</span></a>
+      <nav id="nav" class="nav"></nav>
+      <div class="sidebar-foot">
+        <button class="btn ghost small" id="themeToggle" title="Сменить тему">🌓 Тема</button>
+      </div>
+    </aside>
+    <main id="view" class="view" tabindex="-1"></main>
+  </div>
+  <nav id="bottomNav" class="bottom-nav"></nav>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/core.js"></script>
+  <script src="js/home.js"></script>
+  <script src="js/money.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/jobs.js"></script>
+  <script src="js/finance.js"></script>
+  <script src="data/recipes.js"></script>
+  <script src="js/recipes.js"></script>
+  <script src="js/laundry-icons.js"></script>
+  <script src="data/guide.js"></script>
+  <script src="js/guide.js"></script>
+  <script src="js/extras.js"></script>
+  <script src="js/settings.js"></script>
+  <script>App.start();</script>
+</body>
+</html>
